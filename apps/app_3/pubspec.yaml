@@ -1,0 +1,16 @@
+name: app_3
+publish_to: 'none'
+
+environment:
+  sdk: '^3.8.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  shared_ui:
+    path: ../../packages/shared_ui
+  core:
+    path: ../../packages/core
+  auth_module:
+    path: ../../packages/auth_module

@@ -1,0 +1,35 @@
+
+name: my_monorepo
+
+packages:
+  - packages/**
+  - apps/**
+
+scripts:
+  analyze:
+    run: flutter analyze
+    description: Analyze all packages
+
+  format:
+    run: dart format .
+    description: Format all Dart files
+
+  pub_get:
+    run: flutter pub get
+    description: Run pub get in all packages
+
+  test:
+    run: flutter test
+    description: Run all tests
+
+  clean:
+    run: flutter clean
+    description: Clean all packages
+
+ide:
+  intellij:
+    enabled: true
+
+command:
+  version:
+    workspaceChangelog: true

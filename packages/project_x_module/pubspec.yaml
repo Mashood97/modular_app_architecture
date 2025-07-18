@@ -1,0 +1,9 @@
+name: project_x_module
+publish_to: 'none'
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_ui:
+    path: ../shared_ui
+  core:
+    path: ../core

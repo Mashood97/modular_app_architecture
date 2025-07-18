@@ -1,0 +1,5 @@
+name: shared_ui
+publish_to: 'none'
+dependencies:
+  flutter:
+    sdk: flutter
