@@ -9,7 +9,7 @@ This is just the architecture not a code example, Just to demonstrate the concep
 
 This repo is structured as a monorepo with multiple apps and reusable feature packages (modules).
 
-flutter_melos_modular_template/
+'''flutter_melos_modular_template/
 ├── melos.yaml
 ├── apps/
 │ ├── app1/ # Flutter app with custom theme and modules
@@ -21,7 +21,7 @@ flutter_melos_modular_template/
 │ ├── auth_module/
 │ ├── search_module/
 │ ├── profile_module/
-│ └── project_x_module/
+│ └── project_x_module/'''
 
 
 
