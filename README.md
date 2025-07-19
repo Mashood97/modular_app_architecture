@@ -8,8 +8,8 @@ This is just the architecture not a code example, Just to demonstrate the concep
 ## 🧱 Structure Overview
 
 This repo is structured as a monorepo with multiple apps and reusable feature packages (modules).
-
-'''flutter_melos_modular_template/
+```bash 
+flutter_melos_modular_template/
 ├── melos.yaml
 ├── apps/
 │ ├── app1/ # Flutter app with custom theme and modules
@@ -21,7 +21,7 @@ This repo is structured as a monorepo with multiple apps and reusable feature pa
 │ ├── auth_module/
 │ ├── search_module/
 │ ├── profile_module/
-│ └── project_x_module/'''
+│ └── project_x_module/
 
 
 
@@ -31,7 +31,7 @@ Each app can define which modules to include based on its own requirements.
 
 ### 1. Install Melos
 
-```bash
+
 dart pub global activate melos
 
 
